@@ -16,3 +16,8 @@
     font-size: 10vw;
     font-family: URW Chancery L, cursive;
 }
+body {
+    background: linear-gradient(23deg, rgba(255,255,255,1) 28%, rgba(225,242,214,1) 66%, rgba(156,156,126,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
