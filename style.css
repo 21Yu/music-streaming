@@ -1,4 +1,18 @@
-body {
-    background-image: url("images/IMG_20211019_142721.jpg");
-    background-position: right top;
+.tophalf {
+    text-align: center;
+    position: relative;
+}
+#pic {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
+#header {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(156, 156, 126);
+    font-size: 10vw;
+    font-family: URW Chancery L, cursive;
 }
