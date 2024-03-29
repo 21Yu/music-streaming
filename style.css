@@ -37,7 +37,7 @@ nav a {
     font-family: myFont;
 }
 nav a:hover{
-    background-color: rgba(255, 255, 255, 0.781);
+    background-color: rgba(255, 255, 255, 0.904);
 }
 .texts {
     background-color: rgba(255, 255, 255, 0.466);
@@ -57,6 +57,10 @@ img {
     margin-top: 5vw;
     object-fit: contain;
 }
-#active {
-    background-color: rgba(255, 255, 255, 0.781);
+html.is-changing .transition-fade {
+    transition: opacity 0.25s;
+    opacity: 2;
+}
+html.is-animating .transition-fade {
+    opacity: 0;
 }
